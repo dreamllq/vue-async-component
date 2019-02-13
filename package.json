@@ -1,0 +1,24 @@
+{
+    "name": "vue-async-component2",
+    "version": "0.1.0",
+    "main": "dist/VueAsyncComponent.umd.js",
+    "repository": "git@github.com:dreamllq/vue-async-component.git",
+    "author": "lvliqi <dreamllq@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "vue-cli-service build --target lib --name VueAsyncComponent --formats umd src/AsyncComponent.vue  --report"
+    },
+    "dependencies": {
+        "vue": "^2.6.6"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.1.0",
+        "@vue/cli-service": "^3.1.0",
+        "@vue/eslint-config-airbnb": "^4.0.0",
+        "babel-eslint": "^10.0.1",
+        "babel-plugin-component": "^1.1.1",
+        "eslint": "^5.8.0",
+        "eslint-plugin-vue": "^5.0.0-0",
+        "vue-template-compiler": "^2.6.6"
+    }
+}
